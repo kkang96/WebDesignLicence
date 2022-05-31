@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'twayair';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* reset */
+* { margin: 0; padding: 0; box-sizing: border-box; color: #333333; font-family: 'twayair';}
+ul, li { list-style: none; }
+a { text-decoration: none; color: inherit; }
+img { vertical-align: top; border: 0; }
+.clearfix::before, .clearfix::after { display: block; content: ""; clear: both; } 
+
