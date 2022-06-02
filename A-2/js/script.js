@@ -25,4 +25,13 @@ $(function () {
     $('.slideList').animate({ left: slidePosition }, 400);
   }, 3000);
 
+  // popup
+  $('.box1 ul li').eq(0).on('click', function () {
+    $('.popup-bg').fadeIn();
+    $('.popup').fadeIn();
+  });
+  $('.popup .close').eq(0).on('click', function () {
+    $('.popup-bg').fadeOut();
+    $('.popup').fadeOut();
+  });
 });
