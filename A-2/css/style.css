@@ -31,14 +31,14 @@ img { vertical-align: top; border: 0; }
 #wrap .slide .slideList .slideImg img { display: block; }
 
 #wrap .contents { background: #ffffff; }
-#wrap .contents > div { padding: 5px; width: 400px; height: 190px; float: left; }
+#wrap .contents > div { padding: 5px; width: 400px; height: 200px; float: left; }
 #wrap .contents > div.box1 h4 { display: inline-block; padding: 10px; background: #4da556; color: #ffffff; font-weight: normal; }
-#wrap .contents > div.box1 ul { padding: 10px; height: 145px; border: 2px solid #4da556; background: #eaeaea; }
+#wrap .contents > div.box1 ul { padding: 10px; height: 154px; border: 2px solid #4da556; background: #eaeaea; }
 #wrap .contents > div.box1 ul li { margin-bottom: 5px; width: 100%; }
 #wrap .contents > div.box1 ul li:hover a { color: #4da556; }
 #wrap .contents > div.box1 ul li span { color:inherit; float: right; }
 #wrap .contents > div.box2 h4 { display: inline-block; padding: 10px; background: #4da556; color: #ffffff; font-weight: normal; }
-#wrap .contents > div.box2 ul { display:flex; align-content:center; justify-content: space-between; padding: 10px; height: 145px; border: 2px solid #4da556; background: #eaeaea; }
+#wrap .contents > div.box2 ul { display:flex; align-content:center; justify-content: space-between; padding: 10px; height: 154px; border: 2px solid #4da556; background: #eaeaea; }
 #wrap .contents > div.box2 ul li { float: left; }
 #wrap .contents > div.box2 ul li img { width: 110px; height: 120px; }
 #wrap .contents > div.box3 .banner { position:relative; width: 100%; height: 100%; border: 2px solid #4da556; }
