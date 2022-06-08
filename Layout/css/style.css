@@ -13,26 +13,25 @@ a { text-decoration: none; color: inherit; }
 table { border-spacing: 0; }
 img { vertical-align: top; border: 0; }
 
-#layout1 { width: 1200px; margin: 0 auto; }
-#layout1 header { width: 100%; height: 100px; background: #AAAAAA; }
-#layout1 header h1 { padding-top: 25px; width: 200px; text-align: center;  float: left; }
-#layout1 header h1 a { display: block; background: #FFFFFF; }
-#layout1 header nav { margin-top: 30px; margin-right: 20px; width: 700px; background: #FFFFFF; float: right; }
-#layout1 header nav ul li { padding: 5px; width: 25%; text-align: center; float: left; border-right: 1px solid #AAAAAA; }
-#layout1 .slide { width: 100%; height: 300px; background: #BBBBBB; }
-#layout1 .contents { width: 100%; height: 200px; background: #CCCCCC; }
-#layout1 .contents > div { padding-top: 80px; width: 400px; height: 200px; border-right: 1px solid #ffffff; text-align: center; float: left; }
-#layout1 footer { width: 100%; height: 100px; background: #DDDDDD; }
+#wireframe01 { width: 1200px; margin: 0 auto; }
+#wireframe01 header { width: 100%; height: 100px; background: #AAAAAA; }
+#wireframe01 .slide { width: 100%; height: 300px; background: #BBBBBB; }
+#wireframe01 .contents { width: 100%; height: 200px; background: #CCCCCC; }
+#wireframe01 .contents > div { width: 400px; height: 200px; border-right: 1px solid #ffffff; float: left; }
+#wireframe01 footer { width: 100%; height: 100px; background: #DDDDDD; }
 
-#layout2 { width: 1200px; margin: 0 auto; }
-#layout2 aside { width: 200px; height: 650px; background: #aaaaaa; float: left; }
-#layout2 aside h1 { margin-top: 20px; margin-bottom: 10px; width: 200px; text-align: center; }
-#layout2 aside h1 a { display: block; background: #ffffff; }
-#layout2 aside nav { padding: 10px; }
-#layout2 aside nav ul > li { text-align: center; border-bottom: 1px solid #aaaaaa; background: #ffffff; }
-#layout2 aside nav ul > li > a { display: block; padding: 5px; }
-#layout2 .main { width: 1000px; float: left; }
-#layout2 .main .slide { width: 100%; height: 350px; background: #bbbbbb; }
-#layout2 .main .contents { width: 100%; height: 200px; background: #cccccc; }
-#layout2 .main .contents > div { padding-top: 80px; width: 333.3px ; height: 200px; text-align: center; border-right: 1px solid #ffffff; float: left; }
-#layout2 .main footer { width: 100%; height: 100px; background: #dddddd; }
+#wireframe02 header { width: 100%; height: 100px; background: #EEEEEE; }
+#wireframe02 header .header { margin: 0 auto; width: 1200px; height: 100px; background: #AAAAAA; }
+#wireframe02 .slide { margin: 0 auto; width: 1200px; height: 300px; background: #BBBBBB; }
+#wireframe02 .contents { margin: 0 auto; width: 1200px; height: 200px; background: #CCCCCC; }
+#wireframe02 .contents > div { width: 400px; height: 200px; border-right: 1px solid #ffffff; float: left; }
+#wireframe02 footer { width: 100%; height: 100px; background: #EEEEEE; }
+#wireframe02 footer .footer { margin: 0 auto; width: 1200px; height: 100px; background: #DDDDDD; }
+
+#wireframe03 { display: flex; width: 1000px; }
+#wireframe03 aside { width: 200px; height: 650px; background: #aaaaaa; }
+#wireframe03 .main { width: 800px; }
+#wireframe03 .main .slide { width: 100%; height: 350px; background: #bbbbbb; }
+#wireframe03 .main .contents { width: 100%; height: 200px; background: #cccccc; }
+#wireframe03 .main .contents > div { width: calc(800px / 3); height: 200px; border-right: 1px solid #ffffff; float: left; }
+#wireframe03 .main footer { width: 100%; height: 100px; background: #dddddd; }
