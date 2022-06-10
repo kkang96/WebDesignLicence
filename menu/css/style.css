@@ -1,0 +1,82 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'InfinitySans-RegularA1';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* { margin: 0; padding: 0; color: #333333; box-sizing: border-box; font-family: 'InfinitySans-RegularA1'; }
+ul, li { list-style: none; }
+a { text-decoration: none; color: inherit; }
+.clearfix::before, .clearfix::after { display: block; content: ""; clear: both; }
+table { border-spacing: 0; }
+img { vertical-align: top; border: 0; }
+
+#wrap01 { width: 1200px; margin: 0 auto; }
+#wrap01 header.menu01 { width: 100%; height: 100px; background: #AAAAAA; }
+#wrap01 header.menu01 h1 { float: left; }
+#wrap01 header.menu01 h1 a { margin-top:25px; display: block; width: 200px; text-align: center; background: #ffffff; }
+#wrap01 header.menu01 nav { margin-top: 25px; width: 650px; text-align: center; float: right; background: #ffffff; }
+#wrap01 header.menu01 nav ul > li { position: relative; width: 25%; float: left; }
+#wrap01 header.menu01 nav ul > li:hover { background: rgba(0,0,0,0.3);}
+#wrap01 header.menu01 nav ul > li > a { display: block; padding: 10px; }
+#wrap01 header.menu01 nav ul > li > ul.submenu { display: none; position: absolute; top: 40px; left: 0; background: #ffffff; }
+#wrap01 header.menu01 nav ul > li > ul.submenu > li { width: 100%; }
+
+#wrap01 header.menu02 { position: relative;  width: 100%; height: 100px; background: #AAAAAA; }
+#wrap01 header.menu02 h1 { float: left; }
+#wrap01 header.menu02 h1 a { margin-top:25px; display: block; width: 200px; text-align: center; background: #ffffff; }
+#wrap01 header.menu02 .header-bg { display: none; position: absolute; top: 100px; left: 0; width: 1200px; height: 168px; background: #ffffff; }
+#wrap01 header.menu02 nav { position: absolute; top: 58px; left: 520px; width: 650px; text-align: center; background: #ffffff; }
+#wrap01 header.menu02 nav ul > li { position: relative; width: 25%; float: left; }
+#wrap01 header.menu02 nav ul > li:hover { background: rgba(0,0,0,0.3);}
+#wrap01 header.menu02 nav ul > li > a { display: block; padding: 10px; }
+#wrap01 header.menu02 nav ul > li > ul.submenu { display: none; position: absolute; top: 42px; left: 0; background: #ffffff; }
+#wrap01 header.menu02 nav ul > li > ul.submenu > li { width: 100%; }
+
+#wrap01 header.menu03 { width: 100%; height: 100px; background: #AAAAAA; }
+#wrap01 header.menu03 h1 { float: left; }
+#wrap01 header.menu03 h1 a { margin-top:25px; display: block; width: 200px; text-align: center; background: #ffffff; }
+#wrap01 header.menu03 nav { margin-top: 25px; width: 650px; text-align: center; float: right; background: #ffffff; }
+#wrap01 header.menu03 nav ul > li { position: relative; width: 25%; float: left; }
+#wrap01 header.menu03 nav ul > li:hover { background: rgba(0,0,0,0.3);}
+#wrap01 header.menu03 nav ul > li > a { display: block; padding: 10px; }
+#wrap01 header.menu03 nav ul > li > ul.submenu { display: none; position: absolute; top: 40px; left: 0; background: #ffffff; }
+#wrap01 header.menu03 nav ul > li > ul.submenu > li { width: 100%; }
+
+#wrap01 .slide { width: 100%; height: 300px; background: #BBBBBB; }
+#wrap01 .contents { width: 100%; height: 200px; background: #CCCCCC; }
+#wrap01 .contents > div { width: 400px; height: 200px; border-right: 1px solid #ffffff; float: left; }
+#wrap01 footer { width: 100%; height: 100px; background: #DDDDDD; }
+
+
+#wrap02 { display: flex; width: 1000px; }
+
+#wrap02 aside.menu04 { width: 200px; height: 650px; background: #aaaaaa; }
+#wrap02 aside.menu04 h1 a { margin-top: 20px; display: block; width: 200px; text-align: center; background: #ffffff; }
+#wrap02 aside.menu04 nav { padding: 10px; text-align: center; }
+#wrap02 aside.menu04 nav ul > li { background: #eeeeee; }
+#wrap02 aside.menu04 nav ul > li:hover { background: rgba(0,0,0,0.2);}
+#wrap02 aside.menu04 nav ul > li > a { display: block; padding: 10px; }
+#wrap02 aside.menu04 nav ul > li > ul.submenu { display:none; }
+#wrap02 aside.menu04 nav ul > li > ul.submenu > li { background: #ffffff; }
+#wrap02 aside.menu04 nav ul > li > ul.submenu > li:hover { color: #ffffff; background: rgba(0, 0, 0, 0.7); }
+
+
+#wrap02 aside.menu05 { width: 200px; height: 650px; background: #aaaaaa; }
+#wrap02 aside.menu05 h1 a { margin-top: 20px; display: block; width: 200px; text-align: center; background: #ffffff; }
+#wrap02 aside.menu05 nav { padding: 10px; text-align: center; }
+#wrap02 aside.menu05 nav ul > li { position:relative; background: #eeeeee; }
+#wrap02 aside.menu05 nav ul > li:hover { background: rgba(0,0,0,0.2);}
+#wrap02 aside.menu05 nav ul > li > a { display: block; padding: 10px; }
+#wrap02 aside.menu05 nav ul > li > ul.submenu { display:none; position: absolute; right:-180px; top: 0; width: 180px;}
+#wrap02 aside.menu05 nav ul > li > ul.submenu > li { background: #ffffff; }
+#wrap02 aside.menu05 nav ul > li > ul.submenu > li:hover { color: #ffffff; background: rgba(0, 0, 0, 0.7); }
+
+#wrap02 .main { width: 800px; }
+#wrap02 .main .slide { width: 100%; height: 350px; background: #bbbbbb; }
+#wrap02 .main .contents { width: 100%; height: 200px; background: #cccccc; }
+#wrap02 .main .contents > div { width: calc(800px / 3); height: 200px; border-right: 1px solid #ffffff; float: left; }
+#wrap02 .main footer { width: 100%; height: 100px; background: #dddddd; }
+
